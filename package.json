@@ -21,7 +21,7 @@
     "apps": [
         {
             "merge_logs": true,
-            "max_memory_restart": "256M",
+            "max_memory_restart": "3G",
             "script": "index.js"
         }
     ],
