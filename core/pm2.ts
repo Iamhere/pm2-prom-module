@@ -28,7 +28,7 @@ import { getLogger } from '../utils/logger';
 
 type IPidsData = Record<number, IPidDataInput>;
 
-const WORKER_CHECK_INTERVAL = 5000;
+const WORKER_CHECK_INTERVAL = 30000;
 const SHOW_STAT_INTERVAL = 10000;
 
 const APPS: { [key: string]: App } = {};
