@@ -10,6 +10,7 @@
         "prom-client": "^15.1.0"
     },
     "scripts": {
+        "prepare": "npm run build",
         "build": "tsc -p tsconfig.json",
         "watch": "tsc -w -p tsconfig.json",
         "publish": "npm run build && npm publish"
